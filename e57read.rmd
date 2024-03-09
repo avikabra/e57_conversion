@@ -1,0 +1,17 @@
+## Read the E57 file
+
+```{r}
+library(rlas)
+
+# Replace "path_to_your_file.e57" with the actual path to your E57 file
+e57_file <- "File Type E57 TEST Scans/1_Mudroom_Garage_and_Laundry_Door.e57"
+
+# Read the E57 file
+e57_data <- read_e57(e57_file)
+```
+
+# Check what the data looks like
+```{r}
+e57_data
+```
+
